@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book4U</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!--<button class="menu">&#9776;</button>-->
+        <nav>
+            <ul class="nav">
+                <li><a href="Index.html">Acceuil</a></li>
+                <li><a href="books.html">All books</a></li>
+                <li><a href="#">Request book</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="log.html">Log in</a></li>
+                <li><a class="sign" href="sign.html">Sign up</a></li>
+            </ul>
+        </nav>
+        <a href="Index.html"><h1 id="logo">Book4U</h3></a>
+        <div class="titre-cercle">
+            <div class="cercle"></div>
+            <p id="titre">A Reader Livres a Thoussand Livre Before <br> he Dies.</p>
+        </div>
+    </header>
+    <body>
+        <div class="t"><p>REQUEST BOOK</p></div>
+        <div class="parent">
+            <form class="fooorm">
+                <div class="ana">
+                    <label for="title">Title</label>
+                    <input class="input-request" type="text" id="title" placeholder="Type here" required>
+                </div>
+
+                <div class="ana">
+                    <label for="author">Author</label>
+                    <input class="input-request" type="text" id="author" placeholder="Type here" required>
+                </div>
+                    
+                <div class="ana">
+                    <label for="langue">Language</label>
+                    <input class="input-request" type="text" id="langue" placeholder="Type here" required>
+                </div>
+                    
+                <div class="ana">
+                    <label for="desc">Description</label>
+                    <textarea type="textarea" class="input-form" id="desc" placeholder="Type here" required></textarea>
+                </div>
+
+                <div class="ana">
+                    <label for="date">Creation date</label>
+                    <input class="input-request" type="date" required>
+                </div>
+
+                <div class="ana">
+                    <label class="drop" for="ttt">Drop cover <p>Format: png, jpg, jpeg & Max file size: 25 MB</p></label>
+                    <input type="file" id="ttt" required>
+                </div>
+
+                <div class="ana">
+                    <label class="drop" for="ppp">Drop file or <span>Browse</span> <p>Format: pdf, docx, doc & Max file size: 25 MB</p></label>
+                    <input type="file" id="ppp" required>
+                </div>
+                <div class="subb">
+                    <button class="cancel">Cancel</button>
+                    <button class="send">Send request</button>
+                </div>
+            </form>
+        </div>
+    </body>
+<footer>
+    <h2>Book4U</h2>
+    <p>&copy 2025 Youcode | Designed whith Youcode | Designed by Mostafa</p>
+</footer>
+</html>
